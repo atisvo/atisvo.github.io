@@ -27,13 +27,16 @@ window.addEventListener('DOMContentLoaded', function() {
     navDiv.textContent = navegador;
   }
 
-  // Obtener y mostrar la IP pública
+  // Obtener y mostrar el mensaje del backend
   const ipDiv = document.getElementById('ip');
-  //fetch('https://api.ipify.org?format=json')
   fetch('https://backend-arume.onrender.com/backend/echo')
     .then(response => response.json())
     .then(data => {
-      ipDiv.textContent = data.ip;
+      if (data && data.message) {
+        ipDiv.textContent = data.message;
+      } else {
+        ipDiv.textContent = '';
+      }
     })
     .catch(() => {
       ipDiv.textContent = '';
@@ -43,4 +46,7 @@ window.addEventListener('DOMContentLoaded', function() {
   const dispositivoDiv = document.getElementById('device');
   const esMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   dispositivoDiv.textContent = esMovil ? 'Mobil/Tablet' : 'PC/Desktop';
+
+
+
 });
