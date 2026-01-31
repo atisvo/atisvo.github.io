@@ -32,7 +32,7 @@ body {
   justify-content: center;
   color: whitesmoke;
   letter-spacing: -2px;
-  font-size: 90px;
+  font-size: 100px;
   font-weight: normal;
   font-style: normal;
   margin-bottom: 24px;
@@ -45,8 +45,8 @@ body {
   left: unset;
   top: unset;
   transform: none;
-  color: whitesmoke;
-  font-size: 24px;
+  color: aquamarine;
+  font-size: 28px;
   font-family: 'brocharegular', serif;
   letter-spacing: 1px;
   text-align: center;
