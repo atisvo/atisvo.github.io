@@ -1,4 +1,4 @@
-@import url('fontes.css');
+@import url('fonts.css');
 
 html, body {
   margin: 0;
@@ -27,7 +27,7 @@ body {
   width: 100%;
   position: absolute;
 
-  display: flex; /* Centrado horizontal y vertical */
+  display: inline-flex; /* Centrado horizontal y vertical */
   overflow: auto;
   /*flex-flow: row wrap;*/
   justify-content: center;
@@ -43,13 +43,13 @@ body {
 }
 
 
-#fecha {
+#date {
   position: absolute;
   left: 50%;
   top: 60%;
   transform: translate(-50%, 0);
   color: whitesmoke;
-  font-size: 22px;
+  font-size: 24px;
   font-family: 'brocharegular', serif;
   letter-spacing: 1px;
   text-align: center;
@@ -61,7 +61,7 @@ body {
   top: 64%;
   transform: translate(-50%, 0);
   color: whitesmoke;
-  font-size: 22px;
+  font-size: 24px;
   font-family: 'brocharegular', serif;
   letter-spacing: 1px;
   text-align: center;
@@ -73,7 +73,7 @@ body {
   top: 68%;
   transform: translate(-50%, 0);
   color: whitesmoke;
-  font-size: 22px;
+  font-size: 24px;
   font-family: 'brocharegular', serif;
   letter-spacing: 1px;
   text-align: center;
@@ -85,7 +85,7 @@ body {
   top: 70%;
   transform: translate(-50%, 0);
   color: whitesmoke;
-  font-size: 22px;
+  font-size: 24px;
   font-family: 'brocharegular', serif;
   letter-spacing: 1px;
   text-align: center;
