@@ -29,7 +29,8 @@ window.addEventListener('DOMContentLoaded', function() {
 
   // Obtener y mostrar la IP pública
   const ipDiv = document.getElementById('ip');
-  fetch('https://api.ipify.org?format=json')
+  //fetch('https://api.ipify.org?format=json')
+  fetch('https://backend-arume.onrender.com/backend/echo')
     .then(response => response.json())
     .then(data => {
       ipDiv.textContent = data.ip;
