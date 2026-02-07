@@ -40,14 +40,14 @@ body {
 }
 
 
-#date, #device, #nav, #ip {
+#date, #device, #nav, #ip, #hello {
   position: static;
   left: unset;
   top: unset;
   transform: none;
   color: aquamarine;
   font-size: 28px;
-  font-family: 'brocharegular', serif;
+  font-family: courier, serif;
   letter-spacing: 1px;
   text-align: center;
   order: 1;
