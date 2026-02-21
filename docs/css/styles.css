@@ -40,6 +40,26 @@ body {
 }
 
 
+#btn-arume {
+  order: 2;
+  margin-top: 20px;
+  padding: 12px 36px;
+  background: transparent;
+  color: aquamarine;
+  font-family: courier, serif;
+  font-size: 28px;
+  letter-spacing: 4px;
+  border: 2px solid aquamarine;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#btn-arume:hover {
+  background: aquamarine;
+  color: #1b2949;
+}
+
+
 #date, #device, #nav, #ip, #hello {
   position: static;
   left: unset;
